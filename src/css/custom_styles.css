@@ -1,0 +1,98 @@
+/*!
+ * Custom Styles
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+body{
+
+}
+
+#page-narrow .container{
+    width: 940px;
+}
+
+#doc-wrap{
+    padding: 20px 10px;
+    margin: 10px  0 0 0;
+    border: 1px solid #ddd;
+    background: #FFF;
+
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+
+h1{
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    margin-top: 40px;
+}
+
+h1.title{
+    font-weight: bold;
+    margin: 10px 0 0px;
+    border-bottom: none;
+}
+
+h1[id] {
+padding-top: 80px;
+margin-top: -45px;
+padding-bottom: 20px;
+}
+
+/* styles for code examples */
+.ex-wrap {
+    padding: 10px 10px 0px 10px;
+    margin: 10px 10px 60px 10px;
+    border-radius: 5px 5px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.ex-wrap pre {
+    margin: 10px -10px 0;
+    padding: 10px 10px;
+    border-radius: 0 0 5px 5px;
+    border-right: none;
+    border-left: none;
+}
+
+.prettyprinted + * {
+    margin-top: 20px;
+}
+
+/* header */
+header{
+    background: #eee;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+/* footer */
+footer {
+    background: #eee;
+    padding: 20px 0 20px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow:inset 0 0 0 1px rgba(201,201,201,.43);
+    box-shadow:inset 0 0 0 1px rgba(201,201,201,.43);
+    margin-bottom: 10px;
+}
+
+/* tables */
+th {
+    background: rgba(238, 238, 238, 0.44);
+}
+
+        #editor {
+            position: absolute;
+            top: 25px;
+            /*top: 0;*/
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}

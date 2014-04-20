@@ -1,0 +1,9 @@
+{
+    "name": "markdown-view",
+    "description": "Render Markdown files on the fly",
+    "license": "MIT",
+    "require": {
+        "michelf/php-markdown": "1.4.*@dev"
+    }
+}
+
