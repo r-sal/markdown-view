@@ -4,8 +4,8 @@ Renders markdown files as html on the fly.
 
 
 ## Setup
-1. Edit `.htaccess' and add the following lines:
-```
+Edit `.htaccess' and add the following lines:
+```shell
 # Markdown view
 Action md-action /markdown/view_md.php
 # Filetypes to redirect
